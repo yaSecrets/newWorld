@@ -1,0 +1,197 @@
+/*css reset*/
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}  
+ ol,ul,img,input{margin:0; padding:0;}
+ li{list-style: none;}
+ i,s{font-style: none;}
+.container{
+	color: #767777
+}
+/*头部部分*/
+header .tiny_banner{
+	left: 8%;
+	background: url(images/icon1.png) no-repeat left;
+}
+header .tiny_banner h1{
+	color: #9C9C9C;
+}
+ nav{
+	left: 46%;
+}
+nav ul li{
+	color: #888B92;
+}
+.move{
+	position: absolute;
+	left: 0;
+	top: 54px;
+	border-top: 4px solid #E53C3C;
+	 -webkit-transition: left 0.4s ease-in-out;
+    -moz-transition: left 0.4s ease-in-out;
+    transition: left 0.4s ease-in-out;
+}
+header nav ul li:nth-child(1):hover~.move{
+    left: 0;
+}
+header nav ul li:nth-child(2):hover~.move{
+    left: 20%;
+}
+header nav ul li:nth-child(3):hover~.move{
+    left: 40%;
+}
+header nav ul li:nth-child(4):hover~.move{
+    left: 60%;
+}
+header nav ul li:nth-child(5):hover~.move{
+    left: 80%;
+}
+header .sign_in{
+	position: absolute;
+	right: 6%;
+	color: #ED7A79;
+	background: url(images/icon2.gif) no-repeat left;
+}
+header .sign_in span:hover{
+	cursor: pointer;
+	border-bottom: 2px solid #E53C3C
+}
+/*头部部分结束*/
+/*banner部分开始*/
+.banner{
+	height: 690px;
+	background: url(images/banner.png) no-repeat ;
+	background-size: 100% ;
+}
+.banner .experience{
+	position: absolute;
+	left: 9%;
+	top: 236px;
+}
+
+.banner .experience span{
+	width: 328px;
+	height: 65px;
+	background-color: #E7504D;
+	margin-top: 66px;
+	border-radius: 5px;
+}
+/*banner部分结束*/
+/*slogan开始*/
+.slogan{
+	height: 250px;
+}
+.slogan  .img{
+	height: 133px;
+	position: relative;	
+}
+.slogan .img img{
+	position: absolute;
+	top:45px;
+}
+.line{
+	border-right: 2px solid #534141;
+}
+/*unknow部分*/
+.unknow {
+	height: 360px;
+	background-color: #EDEDED;
+}
+ .icon6{
+	height: 230px;
+}
+.icon6 img{
+	position: absolute;
+	top: 90px;
+}
+
+/*search_information部分*/
+.search_information{
+	height: 340px;
+	background: url(images/map.png) no-repeat;
+	background-size: 100%;
+}
+ /*活动部分*/
+ .activity{
+ 	height: 606px;
+ 	background-color: #F7F7F7;
+ 	padding-top: 102px;
+ }
+.pic5{
+	background: url(images/pic5.png);
+	background-size: 100%
+}
+/*new_world部分*/
+.triangle{
+	position: absolute;
+	right:0;
+	border: 15px solid rgba(0,0,0,0);
+	border-right-color: #FFFFFF;
+	top:50%;
+	margin-top: 7px;
+}
+.more{
+	display: block;
+	width: 100px;
+	height: 35px;
+	border: 1px solid #E74F4D;
+	background-color: white;
+	margin: 0 auto;
+}
+.more:hover{
+	background-color: #E74F4D;
+	color: white;
+}
+.circle{
+	display: block;
+	padding-top:24px;
+}
+.circle s{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #929292;
+	border-radius: 6px;
+}
+.circle s:hover{
+	background-color: #919292;
+}
+/*表单部分*/
+.formation{
+	height: 750px;	
+}
+.small_triangle{
+	display: inline-block;
+	transform: rotate(90deg);
+	tranform-origin: 50% 50%;
+}
+.applyfor input[type="text"]{
+	width: 310px;
+	height: 40px;
+	border:0;
+}
+.applyfor input[type="textarea"]{
+	width: 640px;
+	height: 120px;
+	border:0;
+}
+.applyfor input{
+	width: 640px;
+	height: 40px;
+	border:0;
+}
+/*footer部分*/
+footer{
+	height: 416px;
+	background-color:#32363E;
+}
+footer input[type="text"]{
+	width: 34%;
+	height: 40px;
+	border: none;
+	padding-left: 10px;
+}
+footer input[type="button"]{
+	width: 8%;
+	height: 40px;
+	background-color: #6F7178;
+	border: none;
+}
